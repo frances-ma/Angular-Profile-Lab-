@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    
+</head>
+<body>
+    <nav>
+        <a href="#!/profile">Profile Page</a>  
+        <a href="#!/edit-profile">Edit Profile</a>  
+      </nav>
+    
+      <header></header>
+      
+      <ng-view></ng-view>
+    
+      <footer></footer>
+      
+      <script src="https://code.angularjs.org/1.6.5/angular.min.js"></script>
+      <script src="https://code.angularjs.org/1.6.5/angular-route.min.js"></script>
+      <script src="module.js"></script>
+      <script src="profile.js"></script>
+      <script src="edit-profile.js"></script>
+      <script src="service.js"></script>
+</body>
+</html>

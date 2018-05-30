@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    border: none;  
+} 
+
+
+body {
+     font-family: 'Work Sans', sans-serif;
+     background-color: #eee; 
+     color: #505355; 
+     height: 100vh; 
+     width: 100%; 
+     display: flex;
+     flex-direction: column; 
+     align-items: center;
+     justify-content: center; 
+}
+
+#header {
+    background-color: #1ECEFD; 
+    width: 100%; 
+    padding: 0; 
+}
+
+
+.container {
+    box-shadow: 0px 0px 10px 0px rgba(204,204,204,1); 
+    background:whitesmoke;  
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    border-radius: 15px; 
+    width: 400px;     
+    padding: 40px;     
+    box-sizing: border-box;   
+}
+
+.user-form {
+    box-shadow: 0px 0px 10px 0px rgba(204,204,204,1); 
+    background:whitesmoke;  
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    border-radius: 15px; 
+    width: 400px;     
+    padding: 40px;   
+    box-sizing: border-box;  
+}
+
+.contact {
+    color: lightslategray; 
+    margin-bottom: 5px; 
+}
+
+h2 {
+    margin-top: 5px; 
+}
+
+h4 {
+   color: #505355; 
+   margin-bottom: 10px; 
+}
+
+.titles {
+    color: #1ECEFD; 
+}
+
+input {
+    padding: 14px;
+    border-radius: 20px; 
+    margin: 10px 0px; 
+    border: 1px solid #bbb;
+    outline: none; 
+}
+
+textarea {
+    padding: 20px; 
+    border-radius: 20px; 
+    margin: 10px 0px; 
+    border: 1px solid #bbb;
+    outline: none; 
+}
+
+
+button {
+    padding: 10px; 
+    background-color: #505355; 
+    color: white; 
+    border-radius: 20px; 
+    font-size: 16px; 
+    margin-top: 10px; 
+    outline: none; 
+
+}
